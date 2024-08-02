@@ -1,0 +1,75 @@
+FITUR LIST YANG BELUM DIIMPLEMENTASI ver 18.06.2024
+
+UMUM
+- Tombol Back <SELESAI>
+- Popbackstack <SELESAI>
+- Notifikasi setelah daftar <SELESAI>
+- Tutup aplikasi jika tidak ada internet
+- Validasi negatif
+- Tombol "Pasien tidak datang" <SELESAI>
+- Tombol "Batalkan janji temu" <SELESAI>
+
+- Random forest untuk prediksi waktu tunggu
+- Tambahkan kolom ID di database, dan jadikan nama document
+
+
+LOGIN/REGISTER
+Login dan register ke database
+** Firebase authentication?
+
+PASIEN
+1. Lihat Antrian
+<SELESAI>
+
+2. Daftar Antrian
+- Tidak bisa daftar jika sudah ada antrian <SELESAI>
+- Daftar antrian untuk poli berbeda <SELESAI>
+- Jam antrian <SELESAI>
+- Jika sesi penuh, tidak bisa memilih jam <SELESAI>
+- Tidak bisa daftar jika sudah lewat tanggal <SELESAI>
+- Tidak bisa daftar 1 jam sebelum
+
+<< TAMBAHKAN ALGORITMA PADA ANTRIAN >>
+- Nomor antrian pada satu hari <SELESAI>
+- Nomor antrian pada satu sesi <SELESAI>
+- MARK PASIEN YANG SERING CANCEL <SELESAI>
+- MAKSIMAL JUMLAH YANG MENGANTRI <SELESAI>
+
+-> Kalkulasi antrian berdasarkan trust dan symptom (SCRAPPED)
+
+
+- Lihat dokter sedang melayani siapa
+- Tombol pasien sudah datang ke puskesmas
+
+
+DOKTER
+1. Antrian
+- Hapus/Selesaikan janji temu <SELESAI>
+- Ganti poli <SELESAI>
+
+2. Daftar Antrian
+- Lihat antrian pada hari tertentu <SELESAI>
+- Lihat antrian pada poli tertentu <SELESAI>
+
+ADMIN
+1. User
+- Lihat daftar user <SELESAI>
+- Naikkan level user <SELESAI>
+
+2. Antrian
+- Lihat antrian setiap poli <SELESAI>
+- Hapus antrian
+
+3. Pendaftaran langsung
+- Halaman pasien yang datang langsung daftar ke admin
+
+
+<< SETELAH FITUR TUNTAS, RAPIHKAN UI >>
+
+SISA PEKERJAAN
+- Random forest untuk prediksi waktu tunggu <SELESAI, BELOM AKURAT>
+- Pendaftaran untuk pasien yang datang langsung dirapihkan (jika full online, dia kemana?)
+- Tambahkan kolom ID di database, dan jadikan nama document(?)
+- Lihat dokter sedang melayani siapa
+- Tombol pasien sudah datang ke puskesmas <SELESAI>
+- Halaman pasien yang datang langsung daftar ke admin <SELESAI>
